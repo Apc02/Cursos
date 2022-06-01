@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HTML curso</title>
+    </head>
+    <body>
+        <h1>Página de contacto</h1>
+        <ul>
+            <li>
+                <a href="index.html"> Inicio</a>
+            </li>
+            <li><a href="contacto.html"> Contacto</a></li>
+        </ul>
+
+        <h1>Tablas</h1>
+        <table border="1">
+            <tr>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Web</td>
+            </tr>
+            <tr>
+                <td>Paola</td>
+                <td>Cisneros</td>
+                <td>AleyAle</td>
+            </tr>            <tr>
+                <td>Random</td>
+                <td>Random</td>   
+                <td>Random</td>
+            </tr>            <tr>
+                <td>Random</td>
+                <td>Random</td>
+                <td>Random</td>
+            </tr>
+
+        </table>
+
+        <h1>Formularios</h1>
+        <p>Formulario de contacto</p>
+        <form>
+            <label>Nombre</label>
+            <input type="text" /> <br/>
+
+            <label>Apellido</label>
+            <input type="text" /> <br/>
+
+            <label>Email</label>
+            <input type="email" /> <br/>
+
+            <select>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select> <br/>
+
+            <input type="submit" value="Enviar"
+        </form>
+
+    </body>
+</html>

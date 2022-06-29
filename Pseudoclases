@@ -1,0 +1,24 @@
+<ul>
+  <li>Primer hermano</li>
+  <li>Segundo hermano</li>
+  <li>Tercer hermano</li>
+  <li>Cuarto hermano</li>
+  <li>Último hermano</li>
+  </ul>
+  
+ 
+  li:first-child{
+  background:pink;
+}
+
+li:last-child{
+  background:yellow;
+}
+
+li:nth-child(2n){
+  background:orange;
+}
+
+li:nth-child(3n){
+  background:purple;
+}

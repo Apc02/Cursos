@@ -1,0 +1,38 @@
+<h1>Unidades de longitud absoluta</h1>
+<div class="pulgada">pulgadas</div>
+<div class="centimetro">centimetros</div>
+<div class="pica">picas</div>
+<div class="milimetro">milimetros</div>
+<div class="punto">puntos</div>
+<div class="pixel">píxeles</div>
+
+div{
+  height: 50px;
+  font-family: Verdana;
+  font-size: 16px;
+  overflow: visible;
+}
+.pulgada{
+  width: 7in;
+  background: skyblue;
+}
+.centimetro{
+  width: 7cm;
+  background: gold;
+}
+.pica{
+  width: 7pc;
+  background: tomato;
+}
+.milimetro{
+  width: 7mm;
+  background: pink;
+}
+.punto{
+  width: 7pt;
+  background: mediumpurple;
+}
+.pixel{
+  width: 7px;
+  background: deeppink;
+}

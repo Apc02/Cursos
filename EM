@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <div class="caja1">50</div>
+    <div class="caja2">
+      <p>Tamaño de fuente heredado</p>
+    </div>
+  </body>
+</html>
+
+.caja1{
+  background: yellow;
+  font-size: 50px;
+  height: 50px;
+  width: 1em;
+}
+.caja2{
+  font-size: 20px;
+}
+p{
+  font-size: 2em;
+}

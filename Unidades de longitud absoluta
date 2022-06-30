@@ -6,6 +6,7 @@
 <div class="punto">puntos</div>
 <div class="pixel">píxeles</div>
 
+CSS
 div{
   height: 50px;
   font-family: Verdana;

@@ -1,0 +1,28 @@
+<div class="level1">
+  <div class="level2">
+    <div class="level3">
+      20px
+    </div>
+    40px
+  </div>
+  80px
+</div>
+
+.level1{
+  width:400px;
+  height:400px;
+  background:red;
+  font-size:80px;
+}
+.level2{
+  background:green;
+  width:50%;
+  height:50%;
+  font-size:50%;
+}
+.level3{
+  background:blue;
+  width:50%;
+  height:50%;
+  font-size:50%
+}

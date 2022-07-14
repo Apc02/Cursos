@@ -1,0 +1,29 @@
+using System;
+
+public class MiPrimeraClase
+{
+    static void Main()
+    {
+        Console.WriteLine("Programa para calcular el promedio de tres números.");
+        
+        // Pedimos los valores de numero1, numero2 y numero3 al usuario.
+        Console.Write("Introduce el valor del primer número: ");
+        String cadenaTeclado = Console.ReadLine();
+       double numero1 = double.Parse(cadenaTeclado);
+       
+       Console.Write("Introduce el valor del segundo número: ");
+        cadenaTeclado = Console.ReadLine();
+       double numero2 = double.Parse(cadenaTeclado);
+       
+       Console.Write("Introduce el valor del tercer número: ");
+        cadenaTeclado = Console.ReadLine();
+       double numero3 = double.Parse(cadenaTeclado);
+        
+        // Calculamos el valor del promedio.
+        double promedio = (numero1 + numero2 + numero3)/3;
+        
+        // Se imprime en la pantalla el resultado para el usuario.
+        Console.Write("El promedio es: ");
+        Console.WriteLine(promedio);
+    }
+}

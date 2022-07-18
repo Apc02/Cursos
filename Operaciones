@@ -1,0 +1,47 @@
+using System;
+namespace Tarea
+{
+    class Programa
+    {
+        static void Main(string[] args)
+        {
+            double x, y;
+            double suma;
+            double resta;
+            double multiplicacion;
+            double division;
+            double residuo;
+            
+            Console.WriteLine("Introduce el primer numero: ");
+            x = Double.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Introduce el segundo numero:");
+            y = Double.Parse(Console.ReadLine());
+            
+            suma = x + y;
+            
+            Console.WriteLine("Suma= " + suma);
+            Console.ReadLine();
+            
+            resta = x - y;
+            
+            Console.WriteLine("Resta= " + resta);
+            Console.ReadLine();
+            
+            multiplicacion = x * y;
+            
+            Console.WriteLine("Multiplicacion= " + multiplicacion);
+            Console.ReadLine();
+            
+            division = x / y;
+            
+            Console.WriteLine("Division= " + division);
+            Console.ReadLine();
+            
+            residuo = x % y;
+            
+            Console.WriteLine("Residuo= " + residuo);
+            Console.ReadLine();
+        }
+    }
+}

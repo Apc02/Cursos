@@ -1,0 +1,28 @@
+using System;
+
+public class MiClase
+{
+    static void Main()
+    {
+        //Pedimos el numero al usuario.
+        
+        Console.Write("Introduce un numero: ");
+        String cadenaTeclado = Console.ReadLine();
+        double MiNumero = double.Parse(cadenaTeclado);
+        
+        //Utilizamos estructuras de decision para caracterizar al numero.
+        
+        if(MiNumero > 0)
+        {
+            Console.WriteLine("Numero positivo. ");
+        }
+        else if(MiNumero < 0)
+        {
+            Console.WriteLine("Numero negativo");
+        }
+        else
+        {
+            Console.WriteLine("Numero cero");
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<div class="caja1">
+  Caja 1
+</div>
+<div class="caja2">
+  Caja 2
+</div>
+<div class="caja3">
+  Caja 3
+</div>
+
+body{
+  margin: 0;
+}
+.caja1{
+  background: #ffd400;
+  width: 200px;
+  height: 100px;
+  padding: 40px;
+}
+.caja2{
+  background: #a435ff;
+  width: 200px;
+  height: 100px;
+  display: inline;
+  padding: 20px;
+}
+.caja3{
+  background: #ff4800;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+}

@@ -1,0 +1,63 @@
+using System; 
+using System.Collections.Generic; 
+using System.Linq; 
+using System.Text; 
+using System.Threading.Tasks;
+
+namespace Programa  
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("MENU DE OPCIONES");
+            Console.WriteLine("");
+            Console.WriteLine("1. Validar Suma");
+            Console.WriteLine("2. Salir");
+            Console.WriteLine("");
+            Console.WriteLine("Ingrese un numero: ");
+            int opc = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("");
+            
+            switch (opc)
+            {
+                case 1:
+                
+                int sum1, sum2, sum3, a, b, c; 
+                //declarando mis variables// 
+                
+                Console.WriteLine("Capture numero 1");
+                a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Capture numero 2");
+                b = int.Parse(Console.ReadLine());
+                Console.WriteLine("Capture numero 3");
+                c = int.Parse(Console.ReadLine());
+                sum1 = a + b;
+                sum2 = b + c;
+                sum3 = a + c; 
+                //sumando y asignando a cada variable la sumatoria
+                
+                if ((sum1 == sum2) && (sum2 == sum3)) 
+                //comparando si la sum1 es igual a sum2 y a su vez si sum2 es igual a sum3
+                {
+                    Console.WriteLine("SON IGUALES");
+                }
+                else
+                {
+                    Console.WriteLine("SON DISTINTOS");
+                }
+                break;
+                
+                case 2:
+                
+                Console.WriteLine("PROGRAMA FINALIZADO");
+                break;
+                
+                default:
+                Console.WriteLine("Opcion no valida");
+                break;
+            }
+            Console.ReadKey();
+        }
+    }
+}

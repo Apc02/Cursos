@@ -1,0 +1,16 @@
+using System;
+
+public class EjemplosEstructurasRepeticion
+{
+    static void Main()
+    {
+        Console.Write("Dame un numero entero: ");
+        int producto = int.Parse(Console.ReadLine());
+        
+        while(producto <= 1000)
+        {
+            Console.WriteLine(producto);
+            producto = producto * 2;
+        }
+    }
+}

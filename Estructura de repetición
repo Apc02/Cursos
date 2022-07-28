@@ -12,6 +12,8 @@ public class EjemplosEstructurasRepeticion
             Console.WriteLine(producto);
             producto = producto * 2;
         }
+        
+        
         //Ejemplo de repeticion controlada por contador usando while.
          int i = 1; //Contador.
          while(i <= 5) //Comparacion del contador contra el valor final a alcanzar.
@@ -19,6 +21,14 @@ public class EjemplosEstructurasRepeticion
              int numero = int.Parse(Console.ReadLine());
              Console.WriteLine(numero);
              i = i + 1; //Actualizacion del contador.
+         }
+         
+         
+         //Ejemplo repeticion controlada por contador usando for.
+         for(int i = 1; i <= 5; i = i + 1) 
+         {
+             int numero = int.Parse(Console.ReadLine());
+             Console.WriteLine(numero);
          }
     }
 }

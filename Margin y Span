@@ -1,0 +1,30 @@
+<div class="caja1">Caja 1</div>
+<span class="span1">Span 1</span><span class="span2">Span 2</span><span class="span3">Span 3</span><span class="span4">Span 4</span><span class="span5">Span 5</span>
+<div class="caja2">Caja 2</div>
+
+div{
+  background: #ffe900;
+  width: 300px;
+  height: 50px;
+}
+.span1{
+  background: #ff00dc;
+}
+.span2{
+  background: #b200ff;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.span3{
+  background: skyblue;
+}
+.span4{
+  background: tomato;
+  margin-right: -20px;
+}
+.span5{
+  background: #00ffff;
+  margin-left: -10px;
+}

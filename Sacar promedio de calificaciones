@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace actividad4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float suma, cant, calif, promedio;
+            Char opc;
+            suma = 0;
+            cant= 0;
+            do
+            {
+                Console.Write("Ingrese una calificacion:");
+                calif = float.Parse(Console.ReadLine());
+                Console.WriteLine("¿Desea introducir otra calificacion? s/n :" );
+                opc = char.Parse(Console.ReadLine()); //Preguntar si va a introducir mas calificaciones
+                
+                suma = suma + calif; //sumar la variable contenedora mas la calificacion ingresada
+                cant++; //incrementando
+            }
+            while (opc != 'n');
+            if (cant != 0)
+            {
+                promedio = suma / cant;
+                Console.Write("El promedio de los valores ingresados es: ");
+                Console.Write(promedio);
+            }
+            Console.ReadLine();
+        }
+    }
+}

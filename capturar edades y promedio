@@ -1,0 +1,60 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace Arreglo
+{
+    class Arreglo
+    {
+static void Main(string[] args)
+        {
+            int[] edades;        
+            edades = new int[10];
+            for (int i = 0; i< edades.Length; i++)
+            {
+                Console.Write("Ingrese la edad: "+(i+1)+": ");
+                edades[i] = int.Parse(Console.ReadLine());
+             } Console.ReadKey();
+            }
+        }
+}
+
+
+EDADES CON PROMEDIO
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace Arreglo
+{
+    class Arreglo
+    {
+int[] edades;
+private int sumatoria;
+
+public void recibe()
+{
+ edades = new int[10];
+          	 for (int i = 0; i < edades.Length; i++)
+           	 {
+           	     Console.Write("Ingrese la edad: "+ (i + 1) + ": ");
+             	 edades[i] = int.Parse(Console.ReadLine());
+           	 }
+		Console.Write("Calculando el promedio… ");
+		for (int j = 0; j < edades.Length; j++)
+		{
+    sumatoria += edades[j];
+		}
+		Console.WriteLine("El promedio de la edad es: " + sumatoria / edades.Length);
+}
+
+static void Main(string[] args)
+{
+    Arreglo alumnos = new Arreglo();
+	alumnos.recibe();
+	Console.ReadKey();
+    }
+    }
+}

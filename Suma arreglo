@@ -1,0 +1,21 @@
+using System;
+public class SumaArreglo
+{
+    static void Main()
+    {
+        Random numerosAleatorios = new Random(); //generar numeros aleatorios
+        int[] arreglo = new int[10]; //capturar 10 numeros
+        int total = 0;
+        for(int cont = 0; cont < arreglo.Length; cont = cont + 1) //empezar desde la primera posicion, Length solo para cambiar el numero en un lugar
+        {
+            arreglo[cont] = numerosAleatorios.Next(101); //colocar un numero mas del limite
+            Console.Write(arreglo[cont] + " ");
+        }
+        Console.WriteLine(); //salto de linea
+        for(int cont = 0; cont < arreglo.Length; cont = cont + 1)
+        {
+            total = total + arreglo[cont];
+        }
+        Console.WriteLine("La suma de los elementos es: " + total);
+    }
+}

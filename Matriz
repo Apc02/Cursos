@@ -1,0 +1,17 @@
+using System;
+
+class ManejoMatriz
+{
+    static void Main()
+    {
+     char[ , ] matrizAsteriscos = {{'*','*','*','*','*'},{'*','*','*','*','*'},{'*','*','*','*','*'},{'*','*','*','*','*'},{'*','*','*','*','*'}};
+     for(int x = 0; x < matrizAsteriscos.GetLength(0); x++)
+     {
+         for(int y = 0; y < matrizAsteriscos.GetLength(1); y++)
+         {
+             Console.Write(matrizAsteriscos[x, y] + " ");
+         }
+         Console.WriteLine();
+     }
+    }
+}

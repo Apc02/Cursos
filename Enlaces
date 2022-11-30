@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso html</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;400&display=swap" rel="stylesheet">
+
+        <link href="estilos.css" rel="stylesheet"/>
+        <script src="main.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    </head>
+    <body onload="saluda()">
+        <!--este es mi primer ejemplo con HTML-->
+        
+        <header>
+            <nav></nav>
+        </header>
+
+        <aside>
+            <nav></nav>
+        </aside>
+
+        <section>
+            <h1>Trabajo con textos</h1>
+            <article>
+                <h2>Mi primer ejemplo</h2>
+                <strong>¡Hola mundo!</strong>
+            </article>
+
+            <article>
+                <h2>Ejemplos con textos</h2>
+                <h3>Linea basada en CSS</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, debitis officia commodi temporibus nostrum veniam excepturi tenetur consequuntur quos impedit, harum aspernatur officiis. <br /> <span class="texto_resaltado">suscipit molestiae magni in, voluptas ducimus. ipsum dolor sit amet consectetur adipisicing elit.</p><p> Expedita saepe animi ea</span>, similique maiores error repellendus aspernatur dicta totam pariatur, dolor quam. Ratione dicta optio officia, explicabo earum expedita veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, ipsa? Porro ipsum doloribus repellat laudantium, tenetur fuga perferendis a aut ullam rem magni. </p><p>animi cum expedita ea, possimus quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore eligendi! <span style="color:#ff00ff;">Voluptatum, numquam vel. Libero minima deserunt culpa in.</span>Illum sunt molestiae ullam, tempora dolorum esse ipsam officia dolorem ex.</p>
+                <hr width="50%" align="center" size="2px">
+                <h3>parrafo con textos especiales</h3>
+                <p>Textos con palabras estéticamente <b>importantes</b>.<br />
+                    Textos <i>cursivos</i>, pero solo estéticamente.<br />
+
+                    Textos con <u>underline</u>.<br />
+                    Textos <strong>importantes</strong>.<br />
+                    Textos a los que <em>enfatizar</em>.<br />
+                    Usando acrónimos <acronym title="Impuesto sobre valor añadido">IVA</acronym>.<br />
+                    Añadiendo <abbr title="Señor">Sr.</abbr><br />
+
+                    <cite>Citando grandes textos: Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum natus harum ratione qui consequuntur dicta mollitia soluta voluptatum a. At quae molestias exercitationem nihil suscipit sit recusandae, assumenda necessitatibus accusamus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta cumque doloribus praesentium in officiis quo consectetur quisquam corrupti perspiciatis aliquid! Architecto, dolores. Corporis recusandae non libero! Magni alias labore unde!</cite><br />
+                    Citando un poco menos:<q>labore ducimus quasi incidunt esse quia laboriosam ratione.</q><br />
+                    Definiciones: <dfn>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, amet voluptas dolorem odio qui corrupti placeat quae. Culpa sapiente ab impedit nostrum earum officia voluptates temporibus consequatur amet, magni ipsam</dfn><br />
+                </p>
+                    <pre><p>Textos preformateados:<strong> Lorem ipsum dolor, sit amet consectetur adipisicing 
+                        elit. Ipsa tempora blanditiis magnam laudantium, magni maiores! Molestiae cum id ratione
+                         aliquam odio deleniti vel laborum molestias distinctio. Architecto ullam illum amet. 
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quos cum voluptas 
+                         recusandae</strong>, nobis qui facere ipsum dolores natus modi voluptatibus omnis 
+                         cupiditate numquam, et dicta minima, quidem aperiam!</p></pre>
+            </article>
+        </section>
+
+        <footer>Alexa &copy;
+        </footer>
+    </body>
+</html>

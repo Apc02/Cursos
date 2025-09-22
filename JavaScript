@@ -1,3 +1,30 @@
-; // al final de cada línea de código
-const /* los valores de las variables no se pueden cambiar (usarla siempre)*/
-let /* 
+; //al final de cada línea de código
+const //los valores de las variables no se pueden cambiar (usarla siempre)*/
+let //si se puede cambiar, al cambiarlo no se pone otro let
+    ej: let language = "English";
+            language = "Spanish";
+console.log () // para que se muestre en la consola
+variables //"nombre de la caja", NO pueden tener espacios
+            se usa el camelCase, primero letra minúscula y capitalizar la sig. palabra
+            ej: homeCity
+            para entender que hay dentro
+"" //string, valor de cadena
+" "//espacio entre 2 variables
+     ej: const feedback = "Success!";
+				 const response = feedback + " " + "Tickets booked.";
+= //operador de asignación
+		almacenar el resultado de una comparación en una variable
+números //representa valores numéricos 
+          no tienen "", si lo tiene se convierte en valores de cadena
+          se pueden crear expresiones (+ - / *)
+booleanos //true o false
+						si no es true, es false y viceversa 
+            sin "" o se convierten en cadenas 
+! // operador de negación
+		se convierte en lo opuesto
+=== // operador de igualdad estricta ¿Es igual?
+			comparar si dos números, cadenas y booleanos son iguales 
+			si la izquierda es igual a la derecha 
+			solo pueden ser true o false
+!== //operador de desigualdad estricta ¿No es igual verdad?
+			verificar si un número NO es igual a otro

@@ -1,5 +1,5 @@
 ; //al final de cada línea de código
-const //los valores de las variables no se pueden cambiar (usarla siempre)*/
+const /*los valores de las variables no se pueden cambiar (usarla siempre)*/
 let //si se puede cambiar, al cambiarlo no se pone otro let
     ej: let language = "English";
             language = "Spanish";

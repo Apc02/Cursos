@@ -12,7 +12,9 @@ variables //"nombre de la caja", NO pueden tener espacios
 " "//espacio entre 2 variables
      ej: const feedback = "Success!";
 				 const response = feedback + " " + "Tickets booked.";
+				console.log (response);
 = //operador de asignación
+		almacenar un valor dentro de una variable
 		almacenar el resultado de una comparación en una variable
 números //representa valores numéricos 
           no tienen "", si lo tiene se convierte en valores de cadena
@@ -20,11 +22,22 @@ números //representa valores numéricos
 booleanos //true o false
 						si no es true, es false y viceversa 
             sin "" o se convierten en cadenas 
-! // operador de negación
+! //operador de negación
 		se convierte en lo opuesto
-=== // operador de igualdad estricta ¿Es igual?
+=== //operador de igualdad estricta ¿Es igual?
 			comparar si dos números, cadenas y booleanos son iguales 
 			si la izquierda es igual a la derecha 
 			solo pueden ser true o false
 !== //operador de desigualdad estricta ¿No es igual verdad?
 			verificar si un número NO es igual a otro
+Comparaciones
+< //verificar si un número es menor que otro ¿Este es menor que este?
+		si el número a la izquierda es menor que el número de la derecha, el resultado es true
+		ej: console.log (1<235);
+		si no es menor el resultado es false
+> //verificar si un núm. es mayor que otro ¿Este es mayor que este?
+<= //verificar si un núm. es menor o igual a otro
+>= //verificar si un núm. es mayor o igual a otro
+Tipos
+//valores como booleanos (true y false), cadenas "" y números
++ //

@@ -40,4 +40,34 @@ Comparaciones
 >= //verificar si un núm. es mayor o igual a otro
 Tipos
 //valores como booleanos (true y false), cadenas "" y números
-+ //
++ //signo de unión o adición
+    sumar o unir 2 valores
+    se pueden obtener diferentes resultados dependiendo del tipo de variable
+    ej: console.log("10"+"10"); 
+        consolen.log(10+10);
+        1010
+        20
+     al unir núm. con cadenas el núm. de transformará automáticamente en una cadena
+     ej: const result = "10" + 10;
+         console.log (result);
+         1010
+operadores lógicos //se pueden conectar 2 o más condiciones para decidir un resultado 
+operador && (AND) //como decir, ¿. es true/false y (&&) . es true/false? -- ¿Esto es y esto es?
+                    devuelve true solo si todas las condiciones son true
+                    ej: let isBatteryOn = true;
+                        let isSwitchOn = true;
+                        console.log(isBatteryOn && isSwitchOn);
+                        true
+                    devolverá false si 1 o más condiciones son false
+                    la evaluación se detiene en cuanto encuentra una expresión falsa
+                    ej: let isBatteryOn = true;
+                        let isSwitchOn = false;
+                        console.log(isBatteryOn && isSwitchOn);
+                        false 
+expresión lógica //cuando operandos y operadores calculan un valor booleano juntos (&&)
+                   ej: let isBatteryOn = false;
+                       let isSwitchOn = false;
+                       let result = isBatteryOn && isSwitchOn;
+                       console.log(result);
+                       false
+operador || (OR) //

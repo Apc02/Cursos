@@ -3,43 +3,57 @@ const //los valores de las variables no se pueden cambiar (usarla siempre)
 let //si se puede cambiar, al cambiarlo no se pone otro let
     ej: let language = "English";
             language = "Spanish";
+
 console.log () // para que se muestre en la consola
 variables //"nombre de la caja", NO pueden tener espacios
             se usa el camelCase, primero letra minúscula y capitalizar la sig. palabra
             ej: homeCity
             para entender que hay dentro
+
 "" //string, valor de cadena
+
 " "//espacio entre 2 variables
      ej: const feedback = "Success!";
 				 const response = feedback + " " + "Tickets booked.";
 				console.log (response);
+
 = //operador de asignación
 		almacenar un valor dentro de una variable
 		almacenar el resultado de una comparación en una variable
+
 números //representa valores numéricos 
           no tienen "", si lo tiene se convierte en valores de cadena
           se pueden crear expresiones (+ - / *)
+
 booleanos //true o false
 						si no es true, es false y viceversa 
             sin "" o se convierten en cadenas 
+
 ! //operador de negación
 		se convierte en lo opuesto
+
 === //operador de igualdad estricta ¿Es igual?
 			comparar si dos números, cadenas y booleanos son iguales 
 			si la izquierda es igual a la derecha 
 			solo pueden ser true o false
+
 !== //operador de desigualdad estricta ¿No es igual verdad?
 			verificar si un número NO es igual a otro
+
 Comparaciones
 < //verificar si un número es menor que otro ¿Este es menor que este?
 		si el número a la izquierda es menor que el número de la derecha, el resultado es true
 		ej: console.log (1<235);
 		si no es menor el resultado es false
+
 > //verificar si un núm. es mayor que otro ¿Este es mayor que este?
+
 <= //verificar si un núm. es menor o igual a otro
+
 >= //verificar si un núm. es mayor o igual a otro
-Tipos
-//valores como booleanos (true y false), cadenas "" y números
+
+Tipos //valores como booleanos (true y false), cadenas "" y números
+
 + //signo de unión o adición
     sumar o unir 2 valores
     se pueden obtener diferentes resultados dependiendo del tipo de variable
@@ -51,7 +65,9 @@ Tipos
      ej: const result = "10" + 10;
          console.log (result);
          1010
+
 operadores lógicos //se pueden conectar 2 o más condiciones para decidir un resultado 
+
 operador && (AND) //como decir, ¿. es true/false y (&&) . es true/false? -- ¿Esto es y esto es?
                     devuelve true solo si todas las condiciones son true
                     ej: let isBatteryOn = true;
@@ -64,10 +80,43 @@ operador && (AND) //como decir, ¿. es true/false y (&&) . es true/false? -- ¿E
                         let isSwitchOn = false;
                         console.log(isBatteryOn && isSwitchOn);
                         false 
+
 expresión lógica //cuando operandos y operadores calculan un valor booleano juntos (&&)
                    ej: let isBatteryOn = false;
                        let isSwitchOn = false;
                        let result = isBatteryOn && isSwitchOn;
                        console.log(result);
                        false
-operador || (OR) //
+
+operador || (OR) //como decir, ¿Quiero/necesito que al menos 1 condición sea verdadero? -- ¿Este . o este .?
+                   devuelve true siempre que al menos 1 de las condiciones sea true
+                   la evaluación se detiene en cuanto se encuentra una expresión true
+                   ej: let isBatteryOn = true;
+                       let isPowerOn = false;
+                       console.log(isBatteryOn || isPowerOn);
+                       true
+                   solo necesita que una se cumpla, sea true
+                   si todas las condiciones son false, entonces devuelve false
+
+operador ! (NOT) //niega un valor booleano
+                   devuelve true si una condición es false y viceversa 
+                   para invertir el resultado de una expresión lógica 
+                   se puede usar para negar expresiones lógicas (&&), se debe colocar la expresión lógica entre paréntesis 
+                   ej: let isBatteryOn = true;
+                       let isPowerOn = false;
+                       console.log(!(isBatteryOn && isPowerOn));
+                       true
+                   ej: let isBatteryOn = true;
+                        let isPowerOn = false;
+                        console.log(isBatteryOn && isPowerOn);
+                        console.log(!(isBatteryOn && isPowerOn));
+                        false
+                        true
+                   ej: const condition1 = 5 >= 6;
+                        const condition2 = 9 === 10;
+                        console.log(condition1 || condition2);
+                        false
+
+
+
+

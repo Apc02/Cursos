@@ -80,6 +80,15 @@ operador && (AND) //como decir, ¿. es true/false y (&&) . es true/false? -- ¿E
                         let isSwitchOn = false;
                         console.log(isBatteryOn && isSwitchOn);
                         false 
+                    true && true //devuelve true
+                    true && false //devuelve false 
+                    false && true //devuelve false
+                    false && false //devuelve false
+                    ¿Cuándo usarla?
+                    - si necesito que todas las condiciones se cumplan para que se ejecute una acción
+                    - si estoy describiendo una situación en la que 2 o más condiciones deben ocurrir juntos
+                    - si quiero evitar falsos positivos. Si una condición es falsa, podría causar problemas
+                    - para asegurarme de que todas las condiciones sean verdaderas
 
 expresión lógica //cuando operandos y operadores calculan un valor booleano juntos (&&)
                    ej: let isBatteryOn = false;
@@ -97,6 +106,16 @@ operador || (OR) //como decir, ¿Quiero/necesito que al menos 1 condición sea v
                        true
                    solo necesita que una se cumpla, sea true
                    si todas las condiciones son false, entonces devuelve false
+                   true || true //devuelve true
+                   true || false //devuelve true
+                   false || true //devuelve true
+                   false || false //devuelve false
+                   ¿Cuándo usarla?
+                   - si necesito que al menos 1 condición se cumpla para que de ejecute una acción
+                   - si quiero ofrecer alternativas //como para prender un ventilador, puede estar enchufado o prenderlo con un botón 
+                   - si estoy describiendo una situación en la que 1 de varias condiciones puede ocurrir
+                   - si quiero evitar falsos negativos
+                   - si una condición true podría ser ignorada, para asegurarme de que al menos 1 condición sea verdadera
 
 operador ! (NOT) //niega un valor booleano
                    devuelve true si una condición es false y viceversa 
@@ -116,6 +135,18 @@ operador ! (NOT) //niega un valor booleano
                         const condition2 = 9 === 10;
                         console.log(condition1 || condition2);
                         false
+                   ej: let condition1 = true;
+                       let condition2 = false;
+                       const logicalExpression = condition1 || condition2;
+                       console.log(!logicalExpression || logicalExpression);
+                       true
+                   el orden de operaciones es importante. El operador ! se evalúa antes de && y ||
+                   ej: !(edad >= 18 && tieneLicencia) //se evalúa la expresión edad >= 18 && tieneLicencia
+                   ej: !edad >= 18 && tieneLicencia //se invierte solo el valor edad >= 18
+
+flujo del programa 
+
+
 
 
 
